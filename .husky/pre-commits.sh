@@ -1,4 +1,4 @@
 # !/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm precise-commits && npm lint-staged
+yarn precise-commits && yarn lint-staged
